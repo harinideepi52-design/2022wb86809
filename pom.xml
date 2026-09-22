@@ -5,7 +5,12 @@
   <artifactId>DevOpsLab</artifactId>
   <packaging>jar</packaging>
   <version>1.0-SNAPSHOT</version>
-  <name>DevOpsLab</name>
+   <properties>
+    <maven.compiler.source>21</maven.compiler.source>
+    <maven.compiler.target>21</maven.compiler.target>
+</properties>
+
+<name>DevOpsLab</name>
   <url>http://maven.apache.org</url>
   <dependencies>
     <dependency>
